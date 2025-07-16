@@ -1,0 +1,13 @@
+# Custom Keyword Evaluation with judgeval 🧪⚽
+
+This notebook demonstrates a simple agent evaluation using Judgment Labs' `judgeval` SDK.
+
+## 🔍 What It Does
+- Defines a basic custom scorer that checks if the model response includes "Real Madrid"
+- Evaluates two outputs using this scorer via `JudgmentClient`
+- Visualizes the 50% success rate via the judgeval dashboard
+
+## 📊 Output
+See the screenshot `judgeval_result.png` for visual output of the scoring interface.
+
+This was built as part of my exploration for the Judgment Labs AI Engineer challenge to understand how to run a trace and use a custom scorer.
